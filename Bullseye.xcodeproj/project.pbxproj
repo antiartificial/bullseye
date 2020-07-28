@@ -13,10 +13,11 @@
 		9127F63E24BBDDA800921D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9127F63D24BBDDA800921D20 /* Assets.xcassets */; };
 		9127F64124BBDDA800921D20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9127F64024BBDDA800921D20 /* Preview Assets.xcassets */; };
 		9127F64424BBDDA800921D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9127F64224BBDDA800921D20 /* LaunchScreen.storyboard */; };
+		919A126424CF8D6900A207D4 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919A126324CF8D6900A207D4 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9127F63424BBDDA500921D20 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9127F63424BBDDA500921D20 /* Bull's Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bull's Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9127F63724BBDDA500921D20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9127F63924BBDDA500921D20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9127F63B24BBDDA500921D20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		9127F64024BBDDA800921D20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9127F64324BBDDA800921D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9127F64524BBDDA800921D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919A126324CF8D6900A207D4 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		9127F63524BBDDA500921D20 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9127F63424BBDDA500921D20 /* Bullseye.app */,
+				9127F63424BBDDA500921D20 /* Bull's Eye.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +61,7 @@
 				9127F63724BBDDA500921D20 /* AppDelegate.swift */,
 				9127F63924BBDDA500921D20 /* SceneDelegate.swift */,
 				9127F63B24BBDDA500921D20 /* ContentView.swift */,
+				919A126324CF8D6900A207D4 /* AboutView.swift */,
 				9127F63D24BBDDA800921D20 /* Assets.xcassets */,
 				9127F64224BBDDA800921D20 /* LaunchScreen.storyboard */,
 				9127F64524BBDDA800921D20 /* Info.plist */,
@@ -92,7 +95,7 @@
 			);
 			name = Bullseye;
 			productName = Bullseye;
-			productReference = 9127F63424BBDDA500921D20 /* Bullseye.app */;
+			productReference = 9127F63424BBDDA500921D20 /* Bull's Eye.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919A126424CF8D6900A207D4 /* AboutView.swift in Sources */,
 				9127F63824BBDDA500921D20 /* AppDelegate.swift in Sources */,
 				9127F63A24BBDDA500921D20 /* SceneDelegate.swift in Sources */,
 				9127F63C24BBDDA500921D20 /* ContentView.swift in Sources */,
@@ -286,6 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye/Preview Content\"";
+				DEVELOPMENT_TEAM = AC65XL27P3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Bullseye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,7 +298,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.antiartificial.com.Bullseye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bull's Eye";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye/Preview Content\"";
+				DEVELOPMENT_TEAM = AC65XL27P3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Bullseye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.antiartificial.com.Bullseye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bull's Eye";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
